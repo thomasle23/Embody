@@ -7,11 +7,11 @@ public class DeathMenu : MonoBehaviour {
 
     public void RestartGame()
     {
-        FindObjectOfType<GameManager>().Reset();
+        FindObjectOfType<GameManager>().Reset(); //restart the game
     }
 
     public void QuitToMain()
     {
-        Application.LoadLevel(mainMenuLevel);
+        Application.LoadLevel(mainMenuLevel); //goes back to the main menu
     }
 }

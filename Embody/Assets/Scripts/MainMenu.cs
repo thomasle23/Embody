@@ -7,13 +7,13 @@ public class MainMenu : MonoBehaviour {
 
     public void PlayGame()
     {
-        Application.LoadLevel(playGameLevel);
+        Application.LoadLevel(playGameLevel); //loads the game level
     }
 
 
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit(); //quits game
     }
 
 }

@@ -462,8 +462,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
-  speedMultiplier: 1.05
-  speedIncreaseMilestone: 100
   jumpForce: 18
   jumpTime: 0.5
   grounded: 0
@@ -991,47 +989,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 47.68, y: 1}
---- !u!1 &485820790
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 485820792}
-  - 114: {fileID: 485820791}
-  m_Layer: 0
-  m_Name: EnemyPool
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &485820791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 485820790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aa7d40b4979a7d47bbd47aa47ca84ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pooledObject: {fileID: 167652, guid: 3b0fcaccd82dfca4c80ad953ed70dff3, type: 2}
-  pooledAmount: 1
---- !u!4 &485820792
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 485820790}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5134375, y: 0.9416824, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
 --- !u!1 &489968019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,7 +1342,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 64, y: -40.2}
+  m_AnchoredPosition: {x: 64, y: -82}
   m_SizeDelta: {x: 102, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &643050896
@@ -2021,7 +1978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1035412822
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2706,7 +2663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1597803581
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2977,7 +2934,6 @@ MonoBehaviour:
   maxHeightPoint: {fileID: 1334171204}
   maxHeightChange: 3
   randomEnemyThreshold: 25
-  enemyPool: {fileID: 485820791}
 --- !u!4 &1699385797
 Transform:
   m_ObjectHideFlags: 0

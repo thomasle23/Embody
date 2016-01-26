@@ -3,118 +3,67 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-    public float moveSpeed;
-    private float moveSpeedStore;
-    public float speedMultiplier;
+    public float moveSpeed; //speed of character
 
-    public float speedIncreaseMilestone;
-    private float speedIncreaseMilestoneStore;
+    public float jumpForce; //force of the jump, height in a way
 
-    private float speedMilestoneCount;
-    private float speedMilestoneCountStore;
-
-    public float jumpForce;
-
-    public float jumpTime;
-    private float jumpTimeCounter;
-
-    private bool stoppedJumping;
-
-    private Rigidbody2D myRigidbody;
+    public float jumpTime; //time in air
 
 
-    public bool grounded;
-    public LayerMask whatIsGround;
+    private Rigidbody2D myRigidbody; //interact with the rigidbody
+
+
+    public bool grounded; //make sure player is on the ground
+    public LayerMask whatIsGround; //what layer do you want the ground to be...which will be labeled the ground
     public Transform groundCheck;
     public float groundCheckRadius;
 
-    //private Collider2D myCollider;
 
-    private Animator myAnimator;
+    private Animator myAnimator; //attach animator to player
 
-    public GameManager theGameManager;
+    public GameManager theGameManager; //call the game manager script
 
-    public AudioSource jumpSound;
-    public AudioSource deathSound;
+    public AudioSource jumpSound; //player jump sound
+    public AudioSource deathSound; //death sound
 
 
 
 	// Use this for initialization
 	void Start () {
-        myRigidbody = GetComponent<Rigidbody2D>();
-
-        //myCollider = GetComponent<Collider2D>();
-
-        myAnimator = GetComponent<Animator>();
-
-        jumpTimeCounter = jumpTime;
-
-        speedMilestoneCount = speedIncreaseMilestone;
-
-        moveSpeedStore = moveSpeed;
-        speedMilestoneCountStore = speedMilestoneCount;
-        speedIncreaseMilestoneStore = speedIncreaseMilestone;
-
-        stoppedJumping = true;
+        myRigidbody = GetComponent<Rigidbody2D>(); //search/get the rigidbody to use
+        myAnimator = GetComponent<Animator>(); //find animator to attach to our player
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        //grounded = Physics2D.IsTouchingLayers(myCollider, whatIsGround);
-
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 
-        if(transform.position.x > speedMilestoneCount)
+        myRigidbody.velocity = new Vector2(moveSpeed, myRigidbody.velocity.y); //velocity of player is moveSpeed(so moves forward), and leave y value alone
+
+        if(Input.GetKeyDown(KeyCode.Space)) //any time spacebar is pressed down, player jumps
         {
-            speedMilestoneCount += speedIncreaseMilestone;
-
-            speedIncreaseMilestone = speedIncreaseMilestone * speedMultiplier;
-
-            moveSpeed = moveSpeed * speedMultiplier;
-        }
-
-
-
-        myRigidbody.velocity = new Vector2(moveSpeed, myRigidbody.velocity.y);
-
-        if(Input.GetKeyDown(KeyCode.Space) )
-        {
-            if (grounded)
+            if (grounded) //only jump if on ground
             {
-                myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
-                stoppedJumping = false;
-                jumpSound.Play();
+                myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce); //not change x value to keep moving, y is jumpForce which will be force of the jump
+                jumpSound.Play(); //when you jump, a sound is played
             }
         }
 
 
-        if (grounded)
-        {
-            jumpTimeCounter = jumpTime;
-        }
-
-        myAnimator.SetFloat ("Speed", myRigidbody.velocity.x);
-        myAnimator.SetBool("Grounded", grounded);
-
-
-        
+        myAnimator.SetFloat ("Speed", myRigidbody.velocity.x); //set float value on animator, which is the velocity.x, so animator keeps up with the speed of player
+        myAnimator.SetBool("Grounded", grounded); //run when grounded
 
 
 	}
 
-    void OnCollisionEnter2D (Collision2D other)
+    void OnCollisionEnter2D (Collision2D other) //collision with another object, that has the tag "killbox"
     {
-        if(other.gameObject.tag == "killbox")
+        if(other.gameObject.tag == "killbox") //killbox is a tag that if you collide with it, you will die
         {
-            theGameManager.RestartGame();
-            moveSpeed = moveSpeedStore;
-            speedMilestoneCount = speedMilestoneCountStore;
-            speedIncreaseMilestone = speedIncreaseMilestoneStore;
-            deathSound.Play();
+            theGameManager.RestartGame(); //restart the game
+            deathSound.Play(); //when you die, a sound is played
         }
     }
-
-
 
 }
