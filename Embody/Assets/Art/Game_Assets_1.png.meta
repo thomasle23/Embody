@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: acb0cd37980819c408e60e50023ed082
+timeCreated: 1454054103
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Left_Platform
+    21300002: Middle_Platform
+    21300004: Right_Platform
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 128
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Left_Platform
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 5102
+        width: 297
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.351227, y: 26.63977}
+        - {x: -53.351227, y: 9.6397705}
+        - {x: -28.351227, y: -26.36023}
+        - {x: 53.648773, y: -26.36023}
+        - {x: 53.648773, y: 26.63977}
+    - name: Middle_Platform
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 5102
+        width: 298
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.167023, y: 26.63977}
+        - {x: -53.167023, y: -26.36023}
+        - {x: 54.832977, y: -26.36023}
+        - {x: 54.832977, y: 26.63977}
+    - name: Right_Platform
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 5102
+        width: 301
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.701385, y: 26.63977}
+        - {x: -53.701385, y: -26.36023}
+        - {x: 30.298615, y: -26.36023}
+        - {x: 55.298615, y: 9.6397705}
+        - {x: 55.298615, y: 26.63977}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
