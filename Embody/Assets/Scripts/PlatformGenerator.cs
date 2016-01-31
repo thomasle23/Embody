@@ -17,7 +17,7 @@ public class PlatformGenerator : MonoBehaviour {
     public ObjectPooler[] theObjectPools; //array of the object pools
 
     private float minHeight; //min height of platform, part 9 of tut series
-    public Transform maxHeightPoint; //the max height point that the ojbects will be
+    public Transform maxHeightPoint; //the max height point that the objects will be
     private float maxHeight; //maximum height
     public float maxHeightChange; //range of the max height change
     private float heightChange; //height change
@@ -52,7 +52,9 @@ public class PlatformGenerator : MonoBehaviour {
             if(heightChange > maxHeight) //more platform generation optimizations, part 9 of tut series, platforms randomize better basically
             {
                 heightChange = maxHeight; //change will go as high as the max height point
-            } else if (heightChange < minHeight)
+            }
+
+            else if (heightChange < minHeight)
             {
                 heightChange = minHeight; // lowest minimum height change will always be the minimum height point
             } 
