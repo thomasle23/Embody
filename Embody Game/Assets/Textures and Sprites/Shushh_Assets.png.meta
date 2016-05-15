@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 5015b8b304c23764ebacc321be1f9045
+timeCreated: 1458207004
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Shushh_Assets_0
+    21300002: Shushh_Assets_1
+    21300004: Shushh_Assets_2
+    21300006: Shushh_Assets_3
+    21300008: Shushh_Assets_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 35
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Shushh_Assets_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 638
+        width: 692
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 197, y: -221}
+        - {x: 222, y: -211}
+        - {x: 250, y: -193}
+        - {x: 268, y: -178}
+        - {x: 296, y: -150}
+        - {x: 306, y: -137}
+        - {x: 317, y: -120}
+        - {x: 332, y: -92}
+        - {x: 338, y: -75}
+        - {x: 342, y: -58}
+        - {x: 345, y: -42}
+        - {x: 346, y: -37}
+        - {x: 346, y: 37}
+        - {x: 345, y: 44}
+        - {x: 340, y: 70}
+        - {x: 329, y: 98}
+        - {x: 315, y: 124}
+        - {x: 307, y: 137}
+        - {x: 281, y: 168}
+        - {x: 270, y: 179}
+        - {x: 247, y: 196}
+        - {x: 236, y: 203}
+        - {x: 214, y: 216}
+        - {x: 199, y: 222}
+        - {x: 170, y: 231}
+        - {x: 159, y: 232}
+        - {x: 155, y: 233}
+        - {x: 70, y: 233}
+        - {x: 65, y: 232}
+        - {x: 42, y: 227}
+        - {x: 22, y: 218}
+        - {x: -3, y: 205}
+        - {x: -12, y: 199}
+        - {x: -17, y: 194}
+        - {x: -46, y: 194}
+        - {x: -64, y: 189}
+        - {x: -76, y: 181}
+        - {x: -92, y: 165}
+        - {x: -98, y: 156}
+        - {x: -137, y: 156}
+        - {x: -148, y: 155}
+        - {x: -158, y: 153}
+        - {x: -165, y: 151}
+        - {x: -182, y: 144}
+        - {x: -197, y: 134}
+        - {x: -208, y: 125}
+        - {x: -225, y: 102}
+        - {x: -232, y: 101}
+        - {x: -263, y: 92}
+        - {x: -277, y: 87}
+        - {x: -297, y: 78}
+        - {x: -308, y: 71}
+        - {x: -317, y: 64}
+        - {x: -333, y: 48}
+        - {x: -342, y: 30}
+        - {x: -345, y: 22}
+        - {x: -346, y: 19}
+        - {x: -346, y: -20}
+        - {x: -342, y: -31}
+        - {x: -337, y: -41}
+        - {x: -320, y: -60}
+        - {x: -313, y: -66}
+        - {x: -300, y: -75}
+        - {x: -274, y: -87}
+        - {x: -262, y: -91}
+        - {x: -234, y: -98}
+        - {x: -213, y: -117}
+        - {x: -194, y: -136}
+        - {x: -185, y: -141}
+        - {x: -164, y: -151}
+        - {x: -152, y: -153}
+        - {x: -145, y: -154}
+        - {x: -98, y: -154}
+        - {x: -91, y: -167}
+        - {x: -77, y: -180}
+        - {x: -71, y: -184}
+        - {x: -57, y: -190}
+        - {x: -50, y: -192}
+        - {x: -19, y: -193}
+        - {x: -12, y: -198}
+        - {x: 0, y: -206}
+        - {x: 38, y: -225}
+        - {x: 52, y: -229}
+        - {x: 76, y: -233}
+        - {x: 148, y: -233}
+        - {x: 154, y: -232}
+        - {x: 177, y: -227}
+    - name: Shushh_Assets_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 862
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 412, y: -101}
+        - {x: 422, y: -98}
+        - {x: 431, y: -87}
+        - {x: 431, y: -56}
+        - {x: 422, y: -44}
+        - {x: 425, y: -30}
+        - {x: 430, y: 71}
+        - {x: 430, y: 110}
+        - {x: 428, y: 111}
+        - {x: 411, y: 111}
+        - {x: 411, y: 156}
+        - {x: 409, y: 158}
+        - {x: 406, y: 157}
+        - {x: 366, y: 139}
+        - {x: 367, y: 165}
+        - {x: 364, y: 166}
+        - {x: 358, y: 166}
+        - {x: 331, y: 154}
+        - {x: 238, y: 146}
+        - {x: 212, y: 147}
+        - {x: 165, y: 155}
+        - {x: 126, y: 161}
+        - {x: 89, y: 165}
+        - {x: 74, y: 166}
+        - {x: -52, y: 166}
+        - {x: -59, y: 164}
+        - {x: -90, y: 156}
+        - {x: -164, y: 129}
+        - {x: -289, y: 94}
+        - {x: -315, y: 95}
+        - {x: -316, y: 92}
+        - {x: -323, y: 75}
+        - {x: -352, y: 77}
+        - {x: -356, y: 53}
+        - {x: -383, y: 50}
+        - {x: -385, y: 49}
+        - {x: -385, y: 21}
+        - {x: -355, y: 23}
+        - {x: -354, y: -2}
+        - {x: -383, y: -2}
+        - {x: -385, y: -4}
+        - {x: -385, y: -27}
+        - {x: -383, y: -29}
+        - {x: -360, y: -53}
+        - {x: -379, y: -52}
+        - {x: -383, y: -52}
+        - {x: -385, y: -54}
+        - {x: -385, y: -78}
+        - {x: -379, y: -81}
+        - {x: -357, y: -81}
+        - {x: -355, y: -101}
+        - {x: -346, y: -103}
+        - {x: -329, y: -104}
+        - {x: -318, y: -104}
+        - {x: -319, y: -129}
+        - {x: -314, y: -132}
+        - {x: -296, y: -134}
+        - {x: -253, y: -132}
+        - {x: -228, y: -128}
+        - {x: -172, y: -114}
+        - {x: -159, y: -109}
+        - {x: -122, y: -96}
+        - {x: -19, y: -64}
+        - {x: 7, y: -64}
+        - {x: 126, y: -86}
+        - {x: 191, y: -107}
+        - {x: 275, y: -149}
+        - {x: 300, y: -157}
+        - {x: 341, y: -166}
+        - {x: 366, y: -166}
+        - {x: 366, y: -145}
+        - {x: 391, y: -142}
+        - {x: 413, y: -131}
+      - - {x: -426, y: -48}
+        - {x: -426, y: -77}
+        - {x: -415, y: -78}
+        - {x: -394, y: -78}
+        - {x: -393, y: -66}
+        - {x: -393, y: -51}
+        - {x: -396, y: -48}
+      - - {x: -431, y: 2}
+        - {x: -431, y: -26}
+        - {x: -423, y: -27}
+        - {x: -401, y: -27}
+        - {x: -400, y: -22}
+        - {x: -400, y: 2}
+      - - {x: -396, y: 51}
+        - {x: -423, y: 51}
+        - {x: -424, y: 50}
+        - {x: -424, y: 26}
+        - {x: -423, y: 23}
+        - {x: -393, y: 23}
+        - {x: -392, y: 25}
+        - {x: -391, y: 31}
+        - {x: -391, y: 50}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

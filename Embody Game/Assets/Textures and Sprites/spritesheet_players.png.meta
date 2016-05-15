@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 816504835dfa5764c852ddfa7435f5cb
+timeCreated: 1458583471
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle
+    21300002: run 1
+    21300004: run 2
+    21300006: spritesheet_players_25
+    21300008: spritesheet_players_32
+    21300010: spritesheet_players_35
+    21300012: spritesheet_players_36
+    21300014: spritesheet_players_37
+    21300016: spritesheet_players_38
+    21300018: spritesheet_players_39
+    21300020: spritesheet_players_40
+    21300022: spritesheet_players_41
+    21300024: spritesheet_players_42
+    21300026: spritesheet_players_43
+    21300028: spritesheet_players_44
+    21300030: spritesheet_players_45
+    21300032: jump
+    21300034: spritesheet_players_47
+    21300036: spritesheet_players_48
+    21300038: spritesheet_players_49
+    21300040: spritesheet_players_50
+    21300042: spritesheet_players_51
+    21300044: spritesheet_players_52
+    21300046: spritesheet_players_53
+    21300048: spritesheet_players_54
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idle
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1793
+        width: 105
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 75}
+        - {x: -52.5, y: 61}
+        - {x: -52.5, y: -75}
+        - {x: 44.5, y: -75}
+        - {x: 52.5, y: -72}
+        - {x: 52.5, y: 72}
+        - {x: 42.5, y: 75}
+    - name: run 1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1536
+        width: 112
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 78}
+        - {x: -56, y: -49}
+        - {x: -47, y: -78}
+        - {x: 55, y: -78}
+        - {x: 56, y: -76}
+        - {x: 56, y: 78}
+    - name: run 2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1280
+        width: 108
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 76}
+        - {x: -54, y: 61}
+        - {x: -54, y: -43}
+        - {x: -52, y: -45}
+        - {x: -46, y: -76}
+        - {x: 54, y: -76}
+        - {x: 54, y: 66}
+        - {x: 46, y: 76}
+    - name: jump
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 256
+        width: 108
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 43.5}
+        - {x: 32, y: 75.5}
+        - {x: 28, y: 76.5}
+        - {x: -33, y: 76.5}
+        - {x: -54, y: 50.5}
+        - {x: -54, y: -43.5}
+        - {x: -45, y: -47.5}
+        - {x: -42, y: -43.5}
+        - {x: -41, y: -40.5}
+        - {x: -39, y: -44.5}
+        - {x: -40, y: -76.5}
+        - {x: 42, y: -76.5}
+        - {x: 44, y: -64.5}
+        - {x: 54, y: -43.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

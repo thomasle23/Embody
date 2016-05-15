@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: 975491f436c94de49892e33f76e29476
+timeCreated: 1455681113
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Menu_Assets_0
+    21300002: Menu_Assets_1
+    21300004: Play
+    21300006: Menu_Assets_3
+    21300008: Resume
+    21300010: Game Over
+    21300012: Instructions
+    21300014: About
+    21300016: Home Icon
+    21300018: Quit
+    21300020: Quit Icon
+    21300022: Restart
+    21300024: Main Menu
+    21300026: Restart Icon
+    21300028: Menu_Assets_14
+    21300030: Menu_Assets_15
+    21300032: Menu_Assets_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Menu_Assets_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4687
+        width: 301
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 62.41382}
+        - {x: -62, y: -61.58618}
+        - {x: 62, y: -61.58618}
+        - {x: 62, y: 62.41382}
+    - name: Menu_Assets_1
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 4687
+        width: 301
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.951904, y: 62.41382}
+        - {x: -61.951904, y: -61.58618}
+        - {x: 62.048096, y: -61.58618}
+        - {x: 62.048096, y: 62.41382}
+    - name: Play
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4161
+        width: 1962
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -402.8721, y: 78.44592}
+        - {x: -402.8721, y: -77.55408}
+        - {x: 402.1279, y: -77.55408}
+        - {x: 403.1279, y: -76.55408}
+        - {x: 403.1279, y: 77.44592}
+        - {x: 402.1279, y: 78.44592}
+    - name: Menu_Assets_3
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 2678
+        width: 2253
+        height: 1861
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -462.7979, y: 383.04773}
+        - {x: -462.7979, y: -381.95227}
+        - {x: 463.2021, y: -381.95227}
+        - {x: 463.2021, y: 383.04773}
+    - name: Resume
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 3637
+        width: 1962
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -402.92502, y: 78.29907}
+        - {x: -402.92502, y: -77.70093}
+        - {x: 404.07498, y: -77.70093}
+        - {x: 404.07498, y: 78.29907}
+    - name: Game Over
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 3111
+        width: 1962
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -402.92502, y: 78.33118}
+        - {x: -402.92502, y: -77.66882}
+        - {x: 404.07498, y: -77.66882}
+        - {x: 404.07498, y: 78.33118}
+    - name: Instructions
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2661
+        width: 1962
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -402.92502, y: 63.56775}
+        - {x: -402.92502, y: -62.43225}
+        - {x: 404.07498, y: -62.43225}
+        - {x: 404.07498, y: 63.56775}
+    - name: About
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2210
+        width: 1962
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -400.97794, y: 63.393738}
+        - {x: -401.97794, y: 62.393738}
+        - {x: -401.97794, y: -61.606262}
+        - {x: -400.97794, y: -62.606262}
+        - {x: 404.02206, y: -62.606262}
+        - {x: 404.02206, y: 63.393738}
+    - name: Home Icon
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 2137
+        width: 982
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -201.88293, y: 78.42102}
+        - {x: -201.88293, y: -77.57898}
+        - {x: 202.11707, y: -77.57898}
+        - {x: 202.11707, y: 78.42102}
+    - name: Quit
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1767
+        width: 1962
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -401.92502, y: 62.004395}
+        - {x: -402.92502, y: 61.004395}
+        - {x: -402.92502, y: -61.995605}
+        - {x: 404.07498, y: -61.995605}
+        - {x: 404.07498, y: 61.004395}
+        - {x: 403.07498, y: 62.004395}
+    - name: Quit Icon
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 1499
+        width: 982
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -201.88293, y: 78.46753}
+        - {x: -201.88293, y: -77.53247}
+        - {x: 202.11707, y: -77.53247}
+        - {x: 202.11707, y: 78.46753}
+    - name: Restart
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1312
+        width: 1962
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -401.92502, y: 63.68805}
+        - {x: -402.92502, y: 62.68805}
+        - {x: -402.92502, y: -62.31195}
+        - {x: 404.07498, y: -62.31195}
+        - {x: 404.07498, y: 63.68805}
+    - name: Main Menu
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 861
+        width: 1962
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -402.8721, y: 63.514038}
+        - {x: -402.8721, y: -62.485962}
+        - {x: 402.1279, y: -62.485962}
+        - {x: 403.1279, y: -61.485962}
+        - {x: 403.1279, y: 62.514038}
+        - {x: 402.1279, y: 63.514038}
+    - name: Restart Icon
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 898
+        width: 982
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -201.82996, y: 79.20569}
+        - {x: -201.82996, y: -77.79431}
+        - {x: 202.17004, y: -77.79431}
+        - {x: 202.17004, y: 79.20569}
+    - name: Menu_Assets_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 449
+        width: 2630
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 541.07495, y: 25.352844}
+        - {x: 541.07495, y: 55.352844}
+        - {x: -539.92505, y: 55.352844}
+        - {x: -539.92505, y: 25.352844}
+        - {x: -538.92505, y: 24.352844}
+        - {x: -486.92505, y: 24.352844}
+        - {x: -486.92505, y: -53.647156}
+        - {x: -485.92505, y: -54.647156}
+        - {x: 487.07495, y: -54.647156}
+        - {x: 488.07495, y: -53.647156}
+        - {x: 488.07495, y: 24.352844}
+        - {x: 540.07495, y: 24.352844}
+    - name: Menu_Assets_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 301
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 63.410583}
+        - {x: -62, y: -62.589417}
+        - {x: 62, y: -62.589417}
+        - {x: 62, y: 63.410583}
+    - name: Menu_Assets_16
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 0
+        width: 301
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.951904, y: 62.5}
+        - {x: -61.951904, y: -62.5}
+        - {x: 62.048096, y: -62.5}
+        - {x: 62.048096, y: 62.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

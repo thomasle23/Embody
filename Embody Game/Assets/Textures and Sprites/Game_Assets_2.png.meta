@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: c10c521041a1f0649bf5dc83b4acaa31
+timeCreated: 1461987946
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Game_Assets_2_0
+    21300002: Game_Assets_2_1
+    21300004: Game_Assets_2_2
+    21300006: Game_Assets_2_3
+    21300008: Game_Assets_2_4
+    21300010: Game_Assets_2_5
+    21300012: Game_Assets_2_6
+    21300014: Game_Assets_2_7
+    21300016: Game_Assets_2_8
+    21300018: Small
+    21300020: Game_Assets_2_10
+    21300022: Game_Assets_2_11
+    21300024: Medium
+    21300026: Large
+    21300028: Game_Assets_2_14
+    21300030: Game_Assets_2_15
+    21300032: Game_Assets_2_16
+    21300034: Game_Assets_2_17
+    21300036: Game_Assets_2_18
+    21300038: Game_Assets_2_19
+    21300040: Game_Assets_2_20
+    21300042: Game_Assets_2_21
+    21300044: Game_Assets_2_22
+    21300046: Game_Assets_2_23
+    21300048: Game_Assets_2_24
+    21300050: Game_Assets_2_25
+    21300052: Game_Assets_2_26
+    21300054: Game_Assets_2_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Game_Assets_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5473
+        width: 227
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 41.43933}
+        - {x: -41, y: -40.56067}
+        - {x: 41, y: -40.56067}
+        - {x: 41, y: 41.43933}
+    - name: Game_Assets_2_1
+      rect:
+        serializedVersion: 2
+        x: 4273
+        y: 5473
+        width: 227
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.718506, y: 41.43933}
+        - {x: -40.718506, y: -40.56067}
+        - {x: 41.281494, y: -40.56067}
+        - {x: 41.281494, y: 41.43933}
+    - name: Game_Assets_2_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 5097
+        width: 303
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.569824, y: 28.343262}
+        - {x: -54.569824, y: -26.656738}
+        - {x: -49.569824, y: -27.656738}
+        - {x: 55.430176, y: -27.656738}
+        - {x: 55.430176, y: 28.343262}
+    - name: Game_Assets_2_3
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 5097
+        width: 304
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.604187, y: 28.343262}
+        - {x: -54.604187, y: -27.656738}
+        - {x: 55.395813, y: -27.656738}
+        - {x: 55.395813, y: 28.343262}
+    - name: Game_Assets_2_4
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 5097
+        width: 303
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.5607, y: 28.343262}
+        - {x: -54.5607, y: -27.656738}
+        - {x: 31.4393, y: -27.656738}
+        - {x: 55.4393, y: 4.3432617}
+        - {x: 55.4393, y: 28.343262}
+    - name: Game_Assets_2_5
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 4947
+        width: 303
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.51715, y: 55.448486}
+        - {x: -54.51715, y: -54.551514}
+        - {x: 55.48285, y: -54.551514}
+        - {x: 55.48285, y: 55.448486}
+    - name: Game_Assets_2_6
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 4947
+        width: 306
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.051575, y: 55.448486}
+        - {x: -55.051575, y: -54.551514}
+        - {x: 55.948425, y: -54.551514}
+        - {x: 55.948425, y: 55.448486}
+    - name: Game_Assets_2_7
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 4048
+        width: 604
+        height: 1202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108.47717, y: 216.93933}
+        - {x: -108.47717, y: -216.06067}
+        - {x: 109.52283, y: -216.06067}
+        - {x: 109.52283, y: 216.93933}
+    - name: Game_Assets_2_8
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 4198
+        width: 454
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.70947, y: 189.8341}
+        - {x: -81.70947, y: -189.1659}
+        - {x: 82.29053, y: -189.1659}
+        - {x: 82.29053, y: 189.8341}
+    - name: Small
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4797
+        width: 902
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -162.06982, y: 29.05371}
+        - {x: -162.06982, y: 12.053711}
+        - {x: -140.06982, y: -27.94629}
+        - {x: 148.93018, y: -27.94629}
+        - {x: 162.93018, y: 9.053711}
+        - {x: 162.93018, y: 29.05371}
+    - name: Game_Assets_2_10
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 4535
+        width: 306
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.051575, y: 30.417603}
+        - {x: -55.051575, y: -54.582397}
+        - {x: 55.948425, y: -54.582397}
+        - {x: 55.948425, y: 55.417603}
+        - {x: 38.948425, y: 55.417603}
+        - {x: -47.051575, y: 35.417603}
+    - name: Game_Assets_2_11
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 4535
+        width: 306
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.02069, y: 55.417603}
+        - {x: -55.02069, y: -54.582397}
+        - {x: 55.97931, y: -54.582397}
+        - {x: 55.97931, y: 35.417603}
+        - {x: -27.02069, y: 55.417603}
+    - name: Medium
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4499
+        width: 1202
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -216.06982, y: 28.48291}
+        - {x: -216.06982, y: 12.48291}
+        - {x: -215.06982, y: 11.48291}
+        - {x: -190.06982, y: 11.48291}
+        - {x: -190.06982, y: -26.51709}
+        - {x: -189.06982, y: -27.51709}
+        - {x: 199.93018, y: -27.51709}
+        - {x: 216.93018, y: 11.48291}
+        - {x: 216.93018, y: 28.48291}
+    - name: Large
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4198
+        width: 1503
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -270.06982, y: 28.334106}
+        - {x: -270.06982, y: 12.334106}
+        - {x: -269.06982, y: 11.334106}
+        - {x: -244.06982, y: 11.334106}
+        - {x: -244.06982, y: -26.665894}
+        - {x: -243.06982, y: -27.665894}
+        - {x: 243.93018, y: -27.665894}
+        - {x: 244.93018, y: -26.665894}
+        - {x: 270.93018, y: 11.334106}
+        - {x: 270.93018, y: 28.334106}
+    - name: Game_Assets_2_14
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 4123
+        width: 306
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.051575, y: 17.386719}
+        - {x: -55.051575, y: -54.61328}
+        - {x: 55.948425, y: -54.61328}
+        - {x: 55.948425, y: 55.38672}
+        - {x: 39.948425, y: 55.38672}
+        - {x: -31.051575, y: 39.38672}
+    - name: Game_Assets_2_15
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 4123
+        width: 306
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.02069, y: 55.38672}
+        - {x: -55.02069, y: -54.61328}
+        - {x: 55.97931, y: -54.61328}
+        - {x: 55.97931, y: 18.386719}
+        - {x: -44.02069, y: 55.38672}
+    - name: Game_Assets_2_16
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 3711
+        width: 306
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.948425, y: 55.355835}
+        - {x: -55.051575, y: 29.355835}
+        - {x: -55.051575, y: -54.644165}
+        - {x: 55.948425, y: -54.644165}
+        - {x: 55.948425, y: 55.355835}
+    - name: Game_Assets_2_17
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 3711
+        width: 306
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.02069, y: 55.355835}
+        - {x: -55.02069, y: -54.644165}
+        - {x: 55.97931, y: -54.644165}
+        - {x: 55.97931, y: 4.355835}
+        - {x: -50.02069, y: 55.355835}
+    - name: Game_Assets_2_18
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 2999
+        width: 604
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108.47717, y: 163.03552}
+        - {x: -108.47717, y: -161.96448}
+        - {x: 109.52283, y: -161.96448}
+        - {x: 109.52283, y: 163.03552}
+    - name: Game_Assets_2_19
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 2999
+        width: 304
+        height: 1052
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.709473, y: 190.03552}
+        - {x: -54.709473, y: -188.96448}
+        - {x: 55.290527, y: -188.96448}
+        - {x: 55.290527, y: 190.03552}
+    - name: Game_Assets_2_20
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 3300
+        width: 306
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.051575, y: 43.684204}
+        - {x: -55.051575, y: -54.315796}
+        - {x: 55.948425, y: -54.315796}
+        - {x: 55.948425, y: 55.684204}
+        - {x: 23.948425, y: 55.684204}
+        - {x: -39.051575, y: 48.684204}
+    - name: Game_Assets_2_21
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 3300
+        width: 306
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.02069, y: 55.684204}
+        - {x: -55.02069, y: -54.315796}
+        - {x: 55.97931, y: -54.315796}
+        - {x: 55.97931, y: -9.315796}
+        - {x: -46.02069, y: 55.684204}
+    - name: Game_Assets_2_22
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 2247
+        width: 904
+        height: 604
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -162.47717, y: 109.3432}
+        - {x: -162.47717, y: -108.6568}
+        - {x: 163.52283, y: -108.6568}
+        - {x: 163.52283, y: 109.3432}
+    - name: Game_Assets_2_23
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 1724
+        width: 971
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.535522, y: 68.930176}
+        - {x: -25.464478, y: 68.930176}
+        - {x: -43.464478, y: 65.930176}
+        - {x: -76.46448, y: 33.930176}
+        - {x: -86.46448, y: -7.069824}
+        - {x: -119.46448, y: -5.069824}
+        - {x: -169.46448, y: -36.069824}
+        - {x: -174.46448, y: -52.069824}
+        - {x: -174.46448, y: -68.069824}
+        - {x: 175.53552, y: -68.069824}
+        - {x: 175.53552, y: -35.069824}
+        - {x: 170.53552, y: -12.069824}
+        - {x: 110.53552, y: 21.930176}
+        - {x: 51.535522, y: 61.930176}
+    - name: Game_Assets_2_24
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1234
+        width: 1048
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.1831055, y: 62.374054}
+        - {x: -61.183105, y: 62.374054}
+        - {x: -96.183105, y: 48.374054}
+        - {x: -179.1831, y: -16.625946}
+        - {x: -188.1831, y: -42.625946}
+        - {x: -188.1831, y: -61.625946}
+        - {x: 189.8169, y: -61.625946}
+        - {x: 189.8169, y: -52.625946}
+        - {x: 179.8169, y: -33.625946}
+        - {x: 92.816895, y: 12.374054}
+        - {x: 29.816895, y: 45.374054}
+    - name: Game_Assets_2_25
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 711
+        width: 1090
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 162.03552, y: -24.03894}
+        - {x: 142.03552, y: -21.03894}
+        - {x: 69.03552, y: 3.9610596}
+        - {x: -2.9644775, y: 67.96106}
+        - {x: -6.9644775, y: 68.96106}
+        - {x: -62.964478, y: 68.96106}
+        - {x: -84.96448, y: 64.96106}
+        - {x: -136.96448, y: 36.96106}
+        - {x: -195.96448, y: 6.9610596}
+        - {x: -195.96448, y: -68.03894}
+        - {x: 197.03552, y: -68.03894}
+        - {x: 197.03552, y: -51.03894}
+        - {x: 180.03552, y: -30.03894}
+    - name: Game_Assets_2_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 227
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 41}
+        - {x: -41, y: -41}
+        - {x: 41, y: -41}
+        - {x: 41, y: 41}
+    - name: Game_Assets_2_27
+      rect:
+        serializedVersion: 2
+        x: 4273
+        y: 0
+        width: 227
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.718506, y: 41}
+        - {x: -40.718506, y: -41}
+        - {x: 41.281494, y: -41}
+        - {x: 41.281494, y: 41}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
